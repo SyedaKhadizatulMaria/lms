@@ -1,0 +1,11 @@
+Librarian: 
+		username: tushi@gmail.com
+		password: 12345678
+
+Student 1: 
+		username: syedakhadizatulmaria@gmail.com
+		password: khadiza0707
+
+Student 2: 
+		username: tushi070@gmail.com
+		password: 12345678

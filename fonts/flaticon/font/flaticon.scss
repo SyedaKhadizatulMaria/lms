@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?712990edae8dafb9cce2af7b6872daf8") format("truetype"),
+url("./flaticon.woff?712990edae8dafb9cce2af7b6872daf8") format("woff"),
+url("./flaticon.woff2?712990edae8dafb9cce2af7b6872daf8") format("woff2"),
+url("./flaticon.eot?712990edae8dafb9cce2af7b6872daf8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?712990edae8dafb9cce2af7b6872daf8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "minus": "\f101",
+    "heart": "\f102",
+    "book": "\f103",
+    "members-only": "\f104",
+    "star": "\f105",
+    "letter": "\f106",
+);
+
+.flaticon-minus:before {
+    content: map-get($flaticon-map, "minus");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-members-only:before {
+    content: map-get($flaticon-map, "members-only");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-letter:before {
+    content: map-get($flaticon-map, "letter");
+}
